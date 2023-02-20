@@ -14,10 +14,15 @@ Retrofit, Room, Hilt, Picasso
 Также есть другие проекты на git:
 
 Клиент-серверное приложение, магазин техники (server - ktor)
+
 Ссылка на серверную часть:
+
 https://github.com/TatianaFF/serverEcomConcept/tree/master/EcomConcept
+
 Ссылка на клиент часть:
+
 https://github.com/TatianaFF/clientEcomConcept/tree/master/EcommerceConcept
 
 Создание режимов и блокировка уведомлений (Notifications, service, room)
+
 https://github.com/TatianaFF/trackingNotifi
