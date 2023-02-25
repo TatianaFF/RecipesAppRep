@@ -18,7 +18,6 @@ object DatabaseModule {
     @Singleton
     fun provideDatabase(application: Application, callback: RecipeDatabase.Callback): RecipeDatabase{
         return Room.databaseBuilder(application, RecipeDatabase::class.java, "recipes_database")
-            .fallbackToDestructiveMigration()
             .addCallback(callback)
             .build()
     }
